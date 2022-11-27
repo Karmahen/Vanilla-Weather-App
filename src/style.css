@@ -3,8 +3,8 @@ body {
 }
 
 h1 {
-  color: #878787;
-  font-size: 24px;
+  color: #4d3565;
+  font-size: 30px;
   line-height: 28px;
   font-weight: 100;
   margin-bottom: 0;
@@ -20,8 +20,8 @@ li {
 
   margin: 0;
   padding: 0;
-  color: rgb(135, 135, 135);
-  font-size: 16px;
+  color: #ffffff;
+  font-size: 18px;
   font-weight: 100;
   line-height: 19px;
 }
@@ -39,6 +39,12 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 10px;
+  background: radial-gradient(
+    circle at 0.3% 1.3%,
+    rgb(235, 217, 221) 0%,
+    rgb(216, 174, 211) 45.1%,
+    rgb(145, 130, 196) 100.2%
+  );
 }
 
 .overview {
@@ -62,6 +68,7 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -34px;
+  color: #ffffff;
 }
 
 a {
@@ -75,4 +82,32 @@ a {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #4d3565;
+  color: #f6f2fe;
+  text-align: center;
+  display: block;
+  border: 1px solid #4d3565;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 30%);
+  transition: all 200ms ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #f6f2fe;
+  color: #4d3565;
+}
+
+.city {
+  color: #b373db;
+}
+
+#temperature {
+  color: #ffffff;
+}
+
+#celsius-link,
+#fahrenheit-link {
+  color: #ffffff;
 }
