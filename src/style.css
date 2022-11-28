@@ -4,10 +4,10 @@ body {
 
 h1 {
   color: #4d3565;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 28px;
-  font-weight: 100;
-  margin-bottom: 0;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 ul {
@@ -17,10 +17,9 @@ ul {
 
 li {
   list-style: none;
-
-  margin: 0;
+  color: #4c4e52;
+  margin-bottom: 2px;
   padding: 0;
-  color: #ffffff;
   font-size: 18px;
   font-weight: 100;
   line-height: 19px;
@@ -68,7 +67,6 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -34px;
-  color: #ffffff;
 }
 
 a {
@@ -104,10 +102,5 @@ a {
 }
 
 #temperature {
-  color: #ffffff;
-}
-
-#celsius-link,
-#fahrenheit-link {
-  color: #ffffff;
+  color: #4c4e52;
 }
