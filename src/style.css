@@ -1,5 +1,7 @@
 body {
   font-family: arial, sans-serif;
+  background: #4d3565;
+  border-radius: 10px;
 }
 
 h1 {
@@ -35,7 +37,7 @@ li:first-letter {
 }
 
 .weather-app {
-  padding: 20px;
+  padding: 30px;
   border: 1px solid #dadde1;
   border-radius: 10px;
   background: radial-gradient(
@@ -102,7 +104,7 @@ a {
 }
 
 #temperature {
-  color: #4c4e52;
+  color: #4d3565;
 }
 
 .weather-forecast {
@@ -122,4 +124,8 @@ a {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+
+small {
+  color: #ffffff;
 }
