@@ -6,7 +6,6 @@ body {
     rgb(122, 101, 149) 101.8%
   );
   border-radius: 10px;
-  margin: 0 auto;
 }
 
 h1 {
@@ -40,7 +39,6 @@ li:first-letter {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 50px auto;
-  padding: 20px;
 }
 
 small {
@@ -49,6 +47,7 @@ small {
 
 .weather-app {
   padding: 20px;
+  display: block;
   margin: 0px auto;
   border: 2px solid #ffffff;
   border-radius: 40px;
