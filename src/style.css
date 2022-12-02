@@ -36,13 +36,13 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+small {
+  color: #ffffff;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 50px auto;
-}
-
-small {
-  color: #ffffff;
 }
 
 .weather-app {
@@ -106,10 +106,6 @@ small {
   color: #b373db;
 }
 
-#temperature {
-  color: #4d3565;
-}
-
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
@@ -127,4 +123,8 @@ small {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+
+#temperature {
+  color: #4d3565;
 }
